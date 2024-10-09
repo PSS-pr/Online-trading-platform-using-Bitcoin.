@@ -22,8 +22,8 @@ let tickerData = [];
 let marketDataK = [];
 let marketEnglishName = [];
 const sdk = require('api')('@upbit/v1.4.0#1h2zv2al3jq48nm');
-let access_key = 'JrmbupCb54y85HLrfVOD5xsWeB1lyWNGno5gcKTi';
-let secret_key = 'Vbt3oK8l2cDOGLiBEhtOxtX76GfpmNMf3ZTHau1D';
+let access_key = '-';
+let secret_key = '-';
 server_url = 'https://api.upbit.com';
 app.use(bodyParser.urlencoded({ extended: true }));
 let coinname2Value = ''; // 전역 변수로 설정
